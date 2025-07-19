@@ -39,6 +39,7 @@
    pnpm install
    ```
 4. 配置API密钥：
+   - 复制`server/.env.example`为`server/.env`
    - 在`.env`文件中填入你的API密钥
 5. 启动后端服务：
    ```
