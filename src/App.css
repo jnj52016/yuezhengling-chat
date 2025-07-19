@@ -1,0 +1,54 @@
+/* 引入 Tailwind CSS 框架 */
+@import "tailwindcss";
+
+/* Swiper 轮播组件样式 */
+.swiper-button-prev,
+.swiper-button-next {
+  color: #979797; /* 设置轮播导航按钮的颜色 */
+}
+
+.swiper-pagination-bullet {
+  background: #979797; /* 设置轮播分页指示器的背景色 */
+  opacity: 0.5; /* 设置未激活指示器的透明度 */
+}
+
+.swiper-pagination-bullet-active {
+  background: #ffffff; /* 设置当前活动分页指示器的背景色 */
+  opacity: 1; /* 设置激活指示器的透明度 */
+}
+
+/* 背景图像容器样式修复 */
+.bg-contain {
+  background-size: contain; /* 确保背景图像适应容器且保持宽高比 */
+  background-position: center; /* 背景图像居中显示 */
+}
+
+/* 社交媒体图标悬停效果 */
+.group:hover .group-hover\:invert {
+  filter: invert(1); /* 鼠标悬停时反转图标颜色 */
+}
+
+.group:hover .group-hover\:block {
+  display: block; /* 鼠标悬停时显示隐藏元素 */
+}
+
+/* 轮播图片容器样式 */
+.vsingerSwiper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.swiper-slide {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+}
+
+.swiper-slide img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}

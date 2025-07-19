@@ -1,0 +1,8 @@
+@import "tailwindcss";
+/* 自定义颜色 */
+:root { 
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --font-size-base: 16px;
+  --spacing-unit: 8px;
+}
